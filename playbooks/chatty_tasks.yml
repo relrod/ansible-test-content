@@ -8,3 +8,4 @@
     - debug:
         msg: "This is a debug message: {{ item }}"
       with_sequence: 'count={{ num_messages }}'
+    - command: evil-command-oh-no
